@@ -206,11 +206,11 @@ ul {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid #f39c12;
 }
 
 .contact-form form button {
-  background: #b70e21;
+  background: #f39c12;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
