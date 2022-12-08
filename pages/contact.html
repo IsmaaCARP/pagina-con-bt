@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Contact</title>
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
@@ -73,34 +75,56 @@
         </nav>      
     </div>
       <!--Fin de la navbar-->
+       
       <!-- Comienza Formulario de Contacto-->
-      <div class="container-form">
-        <div class="info-form">
-          <h2>Contáctanos</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi
-            est voluptates quae ipsam eius, in quasi odio porro aut vel beatae
-            aperiam.
-          </p>
-          <a href="#"><i class="bi bi-telephone"></i> 123-456-789</a>
-          <a href="#"><i class="bi bi-envelope-at"></i>info@mastercoffe.com</a>
-          <a href="#"><i class="bi bi-map"></i></i> Ciudad, Pais</a>
+      <div class="container mt-4 ">  
+
+        <h1 class="logo">Formulario de contacto</h1>
+        
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Direccion de correo</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero de telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más Información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
+                    <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                    <li><i class="fas fa-envelope-open-text"></i> contacto@mastercoffe.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                <p>Mastercoffe.com</p>
+            </div>
         </div>
-        <form action="#" autocomplete="off">
-          <input
-            type="text"
-            name="nombre"
-            placeholder="Tu Nombre"
-            class="campo"/>
-          <input type="emal" name="email" placeholder="Tu Email" class="campo" />
-          <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-          <input
-            type="submit"
-            name="enviar"
-            value="Enviar Mensaje"
-            class="btn-enviar"/>
-        </form>
-      </div>
+
+    </div>
       <!--Fin del formulario-->
       <!-- Imagen de fondo hero-->
       <div class="hero-image2 mt-5">
